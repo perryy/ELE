@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<WebBox xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Log_100.xsd">
+  <Info>
+    <Created>2012-01-26T15:48:14</Created>
+    <Culture>en-US</Culture>
+  </Info>
+<Event>
+  <Key>2012-01-26T15:40:58</Key>
+  <DateTime>2012-01-26T15:40:58</DateTime>
+  <EventType>Warning</EventType>
+  <AccessLevel>INSTALLER</AccessLevel>
+  <Category>PORTAL</Category>
+  <Device>WebBox</Device>
+  <Module />
+  <MessageCode>14001</MessageCode>
+  <MessageArgs />
+  <Message>PORTAL_Not_Accessable</Message>
+</Event>
+
+</WebBox>

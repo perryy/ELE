@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<WebBox xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Log_100.xsd">
+  <Info>
+    <Created>2012-01-26T16:03:03</Created>
+    <Culture>en-US</Culture>
+  </Info>
+<Event>
+  <Key>2012-01-26T15:53:48</Key>
+  <DateTime>2012-01-26T15:53:48</DateTime>
+  <EventType>Info</EventType>
+  <AccessLevel>USER</AccessLevel>
+  <Category>COM</Category>
+  <Device>WebBox</Device>
+  <Module />
+  <MessageCode>12003</MessageCode>
+  <MessageArgs>WR10TL09|2001602568</MessageArgs>
+  <Message>COM_Device_comes_online_2</Message>
+</Event>
+<Event>
+  <Key>2012-01-26T15:53:48</Key>
+  <DateTime>2012-01-26T15:53:48</DateTime>
+  <EventType>Info</EventType>
+  <AccessLevel>USER</AccessLevel>
+  <Category>COM</Category>
+  <Device>WebBox</Device>
+  <Module />
+  <MessageCode>12003</MessageCode>
+  <MessageArgs>WR10TL09|2001602582</MessageArgs>
+  <Message>COM_Device_comes_online_2</Message>
+</Event>
+<Event>
+  <Key>2012-01-26T15:53:46</Key>
+  <DateTime>2012-01-26T15:53:46</DateTime>
+  <EventType>Warning</EventType>
+  <AccessLevel>INSTALLER</AccessLevel>
+  <Category>PORTAL</Category>
+  <Device>WebBox</Device>
+  <Module />
+  <MessageCode>14001</MessageCode>
+  <MessageArgs />
+  <Message>PORTAL_Not_Accessable</Message>
+</Event>
+<Event>
+  <Key>2012-01-26T15:53:46</Key>
+  <DateTime>2012-01-26T15:53:46</DateTime>
+  <EventType>Info</EventType>
+  <AccessLevel>USER</AccessLevel>
+  <Category>PORTAL</Category>
+  <Device>WebBox</Device>
+  <Module />
+  <MessageCode>14015</MessageCode>
+  <MessageArgs>51|70</MessageArgs>
+  <Message>PORTAL_Upload_ok_2</Message>
+</Event>
+<Event>
+  <Key>2012-01-26T15:53:43</Key>
+  <DateTime>2012-01-26T15:53:43</DateTime>
+  <EventType>Info</EventType>
+  <AccessLevel>USER</AccessLevel>
+  <Category>COM</Category>
+  <Device>WebBox</Device>
+  <Module />
+  <MessageCode>12006</MessageCode>
+  <MessageArgs>WR10TL09|2001602582</MessageArgs>
+  <Message>COM_Device_goes_offline_2</Message>
+</Event>
+<Event>
+  <Key>2012-01-26T15:53:40</Key>
+  <DateTime>2012-01-26T15:53:40</DateTime>
+  <EventType>Info</EventType>
+  <AccessLevel>USER</AccessLevel>
+  <Category>COM</Category>
+  <Device>WebBox</Device>
+  <Module />
+  <MessageCode>12006</MessageCode>
+  <MessageArgs>WR10TL09|2001602568</MessageArgs>
+  <Message>COM_Device_goes_offline_2</Message>
+</Event>
+<Event>
+  <Key>2012-01-26T15:52:35</Key>
+  <DateTime>2012-01-26T15:52:35</DateTime>
+  <EventType>Warning</EventType>
+  <AccessLevel>INSTALLER</AccessLevel>
+  <Category>PORTAL</Category>
+  <Device>WebBox</Device>
+  <Module />
+  <MessageCode>14001</MessageCode>
+  <MessageArgs />
+  <Message>PORTAL_Not_Accessable</Message>
+</Event>
+<Event>
+  <Key>2012-01-26T15:52:34</Key>
+  <DateTime>2012-01-26T15:52:34</DateTime>
+  <EventType>Warning</EventType>
+  <AccessLevel>INSTALLER</AccessLevel>
+  <Category>PORTAL</Category>
+  <Device>WebBox</Device>
+  <Module />
+  <MessageCode>14001</MessageCode>
+  <MessageArgs />
+  <Message>PORTAL_Not_Accessable</Message>
+</Event>
+<Event>
+  <Key>2012-01-26T15:52:33</Key>
+  <DateTime>2012-01-26T15:52:33</DateTime>
+  <EventType>Warning</EventType>
+  <AccessLevel>INSTALLER</AccessLevel>
+  <Category>PORTAL</Category>
+  <Device>WebBox</Device>
+  <Module />
+  <MessageCode>14001</MessageCode>
+  <MessageArgs />
+  <Message>PORTAL_Not_Accessable</Message>
+</Event>
+
+</WebBox>

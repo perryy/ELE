@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Test</title>
+		
+		
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/highcharts.js"></script>
+		
+		<script type="text/javascript">
+			var chart;
+			var xml;
+			
+			$(document).ready(function() {
+				chart = new Highcharts.Chart({
+					chart: {
+						renderTo: 'container',
+						defaultSeriesType: 'spline'
+					},
+					title: {
+						text: 'Title'
+					},
+					subtitle: {
+						text: 'Subtitle'
+					},
+					xAxis: {
+						type: 'datetime'
+					},
+					yAxis: {
+						title: {
+							text: 'test'
+						},
+						min: 0,
+						minorGridLineWidth: 0, 
+						gridLineWidth: 0,
+						alternateGridColor: null
+					},
+					tooltip: {
+						formatter: function() {
+				                return ''+
+								Highcharts.dateFormat('%e. %b %Y, %H:00', this.x) +': '+ this.y +' m/s';
+						}
+					},
+					plotOptions: {
+						spline: {
+							lineWidth: 3,
+							states: {
+								hover: {
+									lineWidth: 5
+								}
+							},
+							marker: {
+								enabled: false,
+								states: {
+									hover: {
+										enabled: true,
+										symbol: 'circle',
+										radius: 5,
+										lineWidth: 1
+									}
+								}	
+							},
+							pointInterval: 3600000, // one hour
+							pointStart: Date.UTC(2009, 9, 6, 0, 0, 0)
+						}
+					},
+					navigation: {
+						menuItemStyle: {
+							fontSize: '11px'
+						}
+					}
+				});
+
+				$.ajax({
+					type: "POST",
+					url: "getData.php",
+					cache: false,
+					dataType: ($.browser.msie)? "text": "html",
+					data: "type=1",
+					beforeSend: function(){
+					},
+					success: function(data){
+						 if ($.browser.msie) {
+						   xml = new ActiveXObject("Microsoft.XMLDOM");
+						   xml.async = false;
+						   xml.loadXML(data);
+						 } else {
+						   xml = data;
+						 }
+					}
+				});				
+			});
+				
+		</script>
+		
+	</head>
+	<body>
+		
+		<div id="container" style="width: 800px; height: 400px; margin: 0 auto"></div>
+		
+				
+	</body>
+<body>
+
+</body>
+</html>
